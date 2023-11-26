@@ -261,5 +261,26 @@ header{
     #descuento{
         border-radius: 17px;
     }
+
+    .form-register{
+        width: 325px;
+    }
+
+    .warnings{
+        margin-left: 15%;
+    }
+    
+    .card-title11{
+        font-size: 20px;
+    }
     
 }
+
+@media (max-width: 360px){
+
+    .card-title11{
+        font-size: 18px;
+    }
+
+}
+
