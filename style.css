@@ -1,0 +1,265 @@
+body{
+    background-color: #f7f0f0;
+}
+
+.navbar{
+    background-color: #dc3545;
+}
+
+.dropdown-item:hover{
+    background-color: #dc3545;
+    border-radius: 5px;
+    color: white;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.container{
+    width: 250px;
+}
+
+.navbar-brand{
+    font-family: 'ComicaBoom';
+    font-size: 30px;
+    
+}
+
+.carousel-inner{
+    border-radius: 10px;
+}
+
+#carouselExampleAutoplaying{
+    margin: 50px;
+}
+
+.row{
+    margin: 40px;
+    border-radius: 15px;
+}
+
+.card{
+    border-radius: 15px;
+    border-color: aliceblue;
+    
+}
+
+.card-img-top{
+    border-radius: 15px;
+}
+
+.card-img-top:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+    transform: translateY(-3%);
+}
+
+#cardtexto{
+    margin: 50px;
+    color: white;
+    margin-top: 70px;
+}
+
+#textocard{
+    margin: 20px;
+}
+
+#titulo{
+    font-family: ComicaBoom;
+}
+
+#vendidos{
+    border-radius: 15px;
+    background-color: #dc3545;
+    
+}
+
+#cuot{
+    border-radius: 20px;
+}
+
+#cuot:hover{
+    cursor: pointer;
+}
+
+#copy{
+    cursor: default;
+}
+
+.contenedor{
+    right: auto;
+    width: 10%;
+    padding-left: 2rem;
+    padding-bottom: 5rem;
+}
+
+#mensaje{
+    border-radius: 50%;
+}
+
+.iconomensaje{
+    width: 70px;
+}
+
+#mensaje:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+    transform: translateY(-3%);
+    background-color: aquamarine;
+}
+
+#desc:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+}
+
+#desc{
+    border-radius: 25px;
+    background-size: cover;
+}
+
+#descuento{
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.form-register{
+    width: 400px;
+    background: #dc3545;
+    padding: 30px;
+    padding-bottom: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h5{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: none;
+}
+
+.controls {
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+}
+
+
+
+.form-register a:hover{
+    color: #2a66e7;
+    text-decoration: underline;
+}
+
+.form-register .boton{
+    width: 100%;
+    background: #dc3545;
+    border-radius: 6px;
+    border-color: white;
+    padding: 12px;
+    color:  white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+
+.warnings{
+    width: 300px;
+    text-align: left;
+    margin: auto;
+    margin-left: 25%;
+    color: white;
+    padding-top: 20px;
+    padding: 10px;
+    background: none;
+}
+
+header{
+    background: #24303c;
+    box-shadow: 7px 7px 20px #000;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family:ComicaBoom;
+    src: url(ComicaBoom.otf);
+}
+
+@media (max-width: 530px) {
+    #carouselExampleAutoplaying{
+        margin: 0px;
+    }
+
+    .carousel-inner{
+        border-radius: 0px;
+    }
+
+    .card-title{
+        font-size: 0.8rem;
+    }
+
+    .row{
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    #cardtexto{
+        margin: 15px;
+        margin-top: 30px;
+    }
+
+    #textocard{
+        font-size: 16px;
+        margin: 10px;
+        
+    }
+
+    #vendidos{
+        margin: 15px;
+    }
+
+    #cuot{
+        margin-top: 15px;
+        border-radius: 17px;
+    }
+
+    .iconomensaje{
+        width: 50px;
+    }
+
+    .col{
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    #descuento{
+        border-radius: 17px;
+    }
+    
+}
