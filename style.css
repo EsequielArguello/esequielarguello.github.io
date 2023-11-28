@@ -2,6 +2,10 @@ body{
     background-color: #f7f0f0;
 }
 
+section[id]{
+    scroll-margin-top: 130px ;
+}
+
 .navbar{
     background-color: #dc3545;
 }
@@ -120,6 +124,17 @@ body{
     border-radius: 25px;
 }
 
+.modal-content{
+    background-color: #dc3545;
+    color: white;
+}
+
+#recipient-name{
+    background-color: #f7f0f0;
+}
+#message-text{
+    background-color: #f7f0f0;
+}
 
 
 
@@ -138,10 +153,9 @@ body{
     padding-bottom: 40px;
     margin: auto;
     margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
+    border-radius: 15px;
     color: white;
-    box-shadow: 7px 13px 37px #000;
+    box-shadow: 7px 13px 27px #000;
 }
 
 .form-register h5{
@@ -155,10 +169,8 @@ body{
     width: 100%;
     background: white;
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 7px;
     margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: 'calibri';
     font-size: 18px;
     color: black;
 }
@@ -167,18 +179,22 @@ body{
 
 .form-register a:hover{
     color: #2a66e7;
-    text-decoration: underline;
 }
 
 .form-register .boton{
     width: 100%;
     background: #dc3545;
-    border-radius: 6px;
+    border-radius: 8px;
     border-color: white;
     padding: 12px;
     color:  white;
     margin: 16px 0;
     font-size: 16px;
+}
+
+.boton:hover{
+    background-color: white;
+    color: black;
 }
 
 
@@ -199,6 +215,22 @@ header{
     margin-right: 20px;
 }
 
+.imgA{
+    border-radius: 15px;
+}
+
+.imgB{
+    border-radius: 15px;
+}
+
+.imgC{
+    border-radius: 15px;
+}
+
+.imgD{
+    border-radius: 15px;
+}
+
 
 
 
@@ -210,6 +242,13 @@ header{
     font-family:ComicaBoom;
     src: url(ComicaBoom.otf);
 }
+
+@media (max-width: 1830px){
+    .card-title11{
+        font-size: 23px;
+    }
+}
+
 
 @media (max-width: 530px) {
     #carouselExampleAutoplaying{
@@ -269,18 +308,7 @@ header{
     .warnings{
         margin-left: 15%;
     }
-    
-    .card-title11{
-        font-size: 20px;
-    }
-    
-}
 
-@media (max-width: 360px){
-
-    .card-title11{
-        font-size: 18px;
-    }
 
 }
 
